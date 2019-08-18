@@ -1,5 +1,5 @@
 FROM openjdk:11-jre
-MAINTAINER Florian Mauduit <f@lf.je>
+MAINTAINER Prateek <dq.prateeks@gmail.com>
 
 #############################################################
 #
@@ -64,8 +64,8 @@ ENV ENABLE_RAW_DB_DATA_STORE false
 
 ## Users
 ENV INITIAL_ENERGY 100000
-ENV ADMIN_EMAIL admin@blynk.cc
-ENV ADMIN_PASS admin
+ENV ADMIN_EMAIL dq.prateeks@gmail.com
+ENV ADMIN_PASS Test@123
 
 
 ############################################################
