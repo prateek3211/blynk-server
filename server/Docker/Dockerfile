@@ -71,7 +71,7 @@ ENV ADMIN_PASS Test@123
 ############################################################
 
 RUN mkdir /blynk
-RUN curl -L https://github.com/blynkkk/blynk-server/releases/download/v0.41.10/server-0.41.10.jar > /blynk/server.jar
+RUN curl -L https://github.com/blynkkk/blynk-server/releases/download/v0.41.10/server-0.41.10.jar
 
 RUN mkdir /data
 RUN mkdir /config && touch /config/server.properties
